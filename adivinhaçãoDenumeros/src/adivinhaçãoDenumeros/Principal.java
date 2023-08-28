@@ -9,10 +9,10 @@ public class Principal {
 	Random random = new Random();
 	int sorteado, numero;
 	
-	sorteado = random.nextInt(100);
-	System.out.println("Bem vindo ao jogo de adivinhação, o computador vai gerar um numero aleatorio de 0 até 100, tenta acertar, você tem 10 tentativas");
+	sorteado = random.nextInt(200);
+	System.out.println("Bem vindo ao jogo de adivinhação, o computador vai gerar um numero aleatorio de 0 até 200, tenta acertar, você tem 10 tentativas");
 	
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 20; i++) {
 		System.out.print("Tentativas numero "+ (i+1) +" Digite o numero que foi sorteado -> ");
 		numero = sc.nextInt();
 		System.out.println();
